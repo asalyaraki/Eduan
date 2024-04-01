@@ -1,6 +1,6 @@
-![viewfinal](https://user-images.githubusercontent.com/109727844/204102879-086fee63-9bda-43b2-a1aa-49879c3f2d39.jpg)
+![eduan2](https://github.com/asalyaraki/Eduan/assets/155806762/d935cecc-f849-4810-802e-3cd4f542638a)
 
-![view final](https://user-images.githubusercontent.com/109727844/204102930-fac80657-4d16-4816-b476-a88e984abefe.jpg)
+![eduan](https://github.com/asalyaraki/Eduan/assets/155806762/42716390-86b1-4e6e-8aab-add7f2b10ce9)
 
 - [Demo Project]( https://asalyaraki.github.io/Eduan/)
 
