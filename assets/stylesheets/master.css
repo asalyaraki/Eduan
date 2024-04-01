@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.home{
+    &:hover{
+        >a{
+            color: white;
+        }
+    }
+}
+
+.dropdown{
+    >ul{
+        visibility: hidden;
+    }
+    &:hover{
+       >ul{
+        visibility: visible;
+       }
+    }
+}
+
+.background_image{
+    background-image: url(../img/3\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 2000px 2000px rgba(0, 0, 0, 0.432);
+}
+
+.bg1{
+    background-image: url(../img/thumb-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg2{
+    background-image: url(../img/thumb-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg3{
+    background-image: url(../img/thumb-4.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.bg4{
+    background-image: url(../img/1\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 2000px 2000px rgba(0, 0, 0, 0.486);
+}
+
+.bg5{
+    background-image: url(../img/1\ \(4\).jpg);
+    /* background-position: center; */
+    background-size: cover;
+    box-shadow: inset 2000px 2000px rgba(0, 0, 0, 0.486);
+}
+
+.bg6{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+.anime1{
+    animation: anime1 30s linear infinite;
+}
+.anime2{
+    animation: anime2 30s linear infinite;
+}
+
+.txt{
+    stroke: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+  }
+
+
+@keyframes anime1{
+    to{
+        transform: translateX(-2000px)
+    }
+}
+@keyframes anime2{
+    to{
+        transform: translateX(2000px)
+    }
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(../font/RubikScribble-Regular.ttf);
+}
